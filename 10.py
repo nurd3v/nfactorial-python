@@ -1,9 +1,6 @@
-count = 0 
-while count < 4:
-     inner = 0
-     while inner < 4:
-         if inner == 2 :
-             continue
-         print(inner)
-     inner += 1
-count += 1
+#2
+enter = int(input("Enter you number: "))
+if enter % 2 == 0:
+    print ("Even")
+elif enter % 2 != 0:
+    print("Odd")
