@@ -1,8 +1,11 @@
-n = int(input("Enter: "))
-sum = 0
-count = 1
-while count <= n:
-    sum += count
-    count += 1
-print(sum)
+n = int(input("Enter your number: "))
+i = 0
+result = 0 
+while i<= n:
+    totally = 2 ** i
+    print(totally)
+    i += 1
+    result += totally
+print("The summary is: ", result)
     
+ 
