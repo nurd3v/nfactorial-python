@@ -2,6 +2,8 @@ from random import randint
 
 target = randint(1, 100)
 tryNumbers = 0
+# print("secret", target)
+
 
 while True:
     n = int(input("Enter your guess: "))
